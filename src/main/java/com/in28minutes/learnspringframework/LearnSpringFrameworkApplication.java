@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.in28minutes.learnspringframework.game.GameRunner;
 import com.in28minutes.learnspringframework.game.MarioGame;
+import com.in28minutes.learnspringframework.game.SuperContraGame;
 
 @SpringBootApplication
 public class LearnSpringFrameworkApplication {
@@ -13,6 +14,7 @@ public class LearnSpringFrameworkApplication {
 		//SpringApplication.run(LearnSpringFrameworkApplication.class, args);
 
 		MarioGame game = new MarioGame();
+		//SuperContraGame game = new SuperContraGame();
 		
 		GameRunner runner = new GameRunner(game);
 		
