@@ -1,5 +1,10 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+// Tells Spring framework to manage this annotation by creating an instant 
+// Create an instance of MarioGame
+@Component
 public class MarioGame implements GamingConsole {
 	@Override
 	public void up() {

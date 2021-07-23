@@ -1,5 +1,7 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
 public interface GamingConsole {
 
 	void up();
